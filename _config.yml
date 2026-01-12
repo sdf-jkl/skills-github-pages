@@ -2,6 +2,8 @@ theme: minima
 title: Konstantin Tarasov
 author: Kosta Tarasov
 description: Personal site, resume, and occasional writing on data systems.
+url: https://sdf-jkl.github.io
+baseurl: /personal-site
 show_excerpts: true
 header_pages:
   - about.md

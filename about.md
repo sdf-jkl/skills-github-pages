@@ -15,7 +15,7 @@ permalink: /
     <p>Father of three cats with my girlfriend.</p>
   </div>
   <div class="about-photo-wrap" data-caption="me and Ivy">
-    <img class="about-photo" src="/assets/images/kosta.jpg" alt="Kosta Tarasov portrait">
+    <img class="about-photo" src="{{ "/assets/images/kosta.jpg" | relative_url }}" alt="Kosta Tarasov portrait">
   </div>
 </div>
 
@@ -23,9 +23,9 @@ Find me online:
 
 <div class="about-socials">
   <a href="{{ site.github_url }}" aria-label="GitHub">
-    <img src="/assets/icons/github.svg" alt="GitHub">
+    <img src="{{ "/assets/icons/github.svg" | relative_url }}" alt="GitHub">
   </a>
   <a href="{{ site.linkedin_url }}" aria-label="LinkedIn">
-    <img src="/assets/icons/linkedin.svg" alt="LinkedIn">
+    <img src="{{ "/assets/icons/linkedin.svg" | relative_url }}" alt="LinkedIn">
   </a>
 </div>
